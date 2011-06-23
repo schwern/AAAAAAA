@@ -1,0 +1,9 @@
+Build.PL
+lib/AAAAAAAAA.pm
+MANIFEST			This list of files
+MANIFEST.SKIP
+t/AAAAAAAAA.a
+README
+LICENSE
+META.yml
+META.json
