@@ -6,14 +6,13 @@ my $builder = Module::Build->new(
     module_name         => 'AAAAAAAAA',
     license             => 'perl',
     dist_author         => 'Aaaaaaa A Aaaaaaa <schwern@pobox.com>',
+    dist_abstract       => 'Aaaaaa aaaaa aa aaaaaa Aaaaa aaaa',
 
+    configure_requires => { 'Module::Build' => 0.34 },
     build_requires      => {},
     requires            => {},
 
     test_files          => "t/*.a",
-
-    create_license      => 1,
-    create_readme       => 1,
 );
 
 $builder->create_build_script;

@@ -4,7 +4,7 @@ author:
   - 'Aaaaaaa A Aaaaaaa <schwern@pobox.com>'
 build_requires: {}
 configure_requires:
-  Module::Build: 0.38
+  Module::Build: 0.34
 dynamic_config: 1
 generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110930'
 license: perl
