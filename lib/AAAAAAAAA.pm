@@ -19,7 +19,6 @@ my %aaaa_aa_aaaaaaaa;
 
 
 sub aaaa {
-    $DB::single = 1;
     open my $aa, $0 or die "Aaa'a aaaa aaa aaaaaa aaaa aaa aaaaaaaaaaa: $!";
     my $aaaa = join "", <$aa>;
     $aaaa =~ s{use\s+AAAAAAAAA\b.*\n}{};
@@ -63,15 +62,15 @@ sub aaaaaaaa {
 aaaa();
 
 
-=head1 NAME
+=head1 AAAA
 
 AAAAAAAAA - Aaaaaa aaaaa aa aaaaaa Aaaaa aaaa
 
-=head1 SYNOPSIS
+=head1 AAAAAAAA
 
     use AAAAAAAAA;
 
-=head1 DESCRIPTION
+=head1 AAAAAAAAAAA
 
 AAAAAAA AA AAA AAAAAAAAA AAAAA AA AAAAAA AAAAAA, AAAAAAA AA AAAAAA
 AAAAAA, AAAAA AAAAAAA AAA! AA AAA AAAA AAAA AAAAAAAA AAAA AA AAAAAA
