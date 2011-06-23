@@ -14,8 +14,8 @@ meta-spec:
 name: AAAAAAAAA
 provides:
   AAAAAAAAA:
-    file: lib/AAAAAAAAA.pm
-    version: 1
+    file: aaa/AAAAAAAAA.pm
+    version: 1.00
 resources:
   license: http://dev.perl.org/licenses/
-version: 1
+version: 1.00
