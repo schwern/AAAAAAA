@@ -40,7 +40,7 @@ sub aaaa {
 sub aaaaaa {
     my $aaaa = shift;
 
-    $$aaaa =~ s{([a-zA-Z0-9])}{ $aaaaaaaa_aa_aaaa{$1} }gex;
+    $$aaaa =~ s{([a-zA-Z0-9])}{$aaaaaaaa_aa_aaaa{$1}}gx;
 
     open my $aa, ">", $0 or die "Aaa'a aaaa aaa aaaaaa aaaa aaa aaaaaaaaaaa: $!";
     print $aa "use AAAAAAAAA";
@@ -53,7 +53,7 @@ sub aaaaaa {
 sub aaaaaaaa {
     my $aaaa = shift;
 
-    $$aaaa =~ s{ ([Aa]{6}) }{ $aaaa_aa_aaaaaaaa{$1} }gex;
+    $$aaaa =~ s{ ([Aa]{6}) }{$aaaa_aa_aaaaaaaa{$1}}gx;
 
     return;
 }
