@@ -6,14 +6,14 @@ use warnings;
 our $VERSION = '1.00';
 
 my @aaaaaaa = ('a'..'z', 'A'..'Z', 0..9);
-my %aaa_aaa;
+my %aaaaaaaa_aa_aaaa;
 for my $a (0..$#aaaaaaa) {
     my $aaaa = sprintf("%06b", $a);
     $aaaa =~ s{0}{a}g;
     $aaaa =~ s{1}{A}g;
-    $aaa_aaa{ $aaaaaaa[$a] } = $aaaa;
+    $aaaaaaaa_aa_aaaa{ $aaaaaaa[$a] } = $aaaa;
 }
-my %aaaaaaaa_aa_aaaa = map { $_ => $aaa_aaa{$_} } @aaaaaaa;
+
 my %aaaa_aa_aaaaaaaa;
 @aaaa_aa_aaaaaaaa{values %aaaaaaaa_aa_aaaa} = keys %aaaaaaaa_aa_aaaa;
 
