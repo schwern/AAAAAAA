@@ -18,7 +18,7 @@ my %aaaa_aa_aaaaaaaa;
 @aaaa_aa_aaaaaaaa{values %aaaaaaaa_aa_aaaa} = keys %aaaaaaaa_aa_aaaa;
 
 sub aaaa {
-    open my $aa, $0 or die "Aaa'a aaaa aaa aaaaaa aaaa aaa aaaaaaaaaaa: $!";
+    open my $aa, "<", $0 or die "Aaa'a aaaa aaa aaaaaa aaaa aaa aaaaaaaaaaa: $!";
 
     my $aaaa = join "", <$aa>;
     $aaaa =~ s{use\s+AAAAAAAAA\b}{}x;
@@ -42,7 +42,7 @@ sub aaaaaa {
 
     $$aaaa =~ s{([a-zA-Z0-9])}{ $aaaaaaaa_aa_aaaa{$1} }gex;
 
-    open my $aa, ">$0" or die "Aaa'a aaaa aaa aaaaaa aaaa aaa aaaaaaaaaaa: $!";
+    open my $aa, ">", $0 or die "Aaa'a aaaa aaa aaaaaa aaaa aaa aaaaaaaaaaa: $!";
     print $aa "use AAAAAAAAA";
     print $aa $$aaaa;
 
