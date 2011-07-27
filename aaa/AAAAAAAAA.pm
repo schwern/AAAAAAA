@@ -3,7 +3,7 @@ package AAAAAAAAA;
 use strict;
 use warnings;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 
 my @aaaaaaa = ('a'..'z', 'A'..'Z', 0..9);
 my %aaaaaaaa_aa_aaaa;
