@@ -12,4 +12,4 @@ nytprof*
 .DS_Store
 MYMETA.*
 *.o
-
+[b-zB-Z]
