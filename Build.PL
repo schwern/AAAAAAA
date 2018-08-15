@@ -8,7 +8,18 @@ my $builder = Module::Build->new(
     dist_author         => 'Aaaaaaa A Aaaaaaa <schwern@pobox.com>',
     dist_abstract       => 'Aaaaaa aaaaa aa aaaaaa Aaaaa aaaa',
 
-    license             => 'perl',
+    license             => 'perl_5',
+
+    meta_merge => {
+        'meta-spec'     => { version => 2 },
+        resources => {
+            repository => {
+                type    => 'git',
+                url     => 'https://github.com/schwern/AAAAAAA.git',
+                web     => 'https://github.com/schwern/AAAAAAA',
+            },
+        },
+    },
 
     configure_requires => { 'Module::Build' => 0.34 },
     build_requires      => {},
